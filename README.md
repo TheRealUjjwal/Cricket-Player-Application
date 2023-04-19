@@ -1,4 +1,4 @@
-# Cricket_Player_App Batch-62 Team-03
+# Cricket_Player_App
 
 # UJJWAL GUPTA
 # GOURI BALAKRISHNA SHINDE
