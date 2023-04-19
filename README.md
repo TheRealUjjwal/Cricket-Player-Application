@@ -1,2 +1,7 @@
-# Cricket-Player-Application
-Java Full Stack Web Development Project
+# Cricket_Player_App Batch-62 Team-03
+
+# UJJWAL GUPTA
+# GOURI BALAKRISHNA SHINDE
+# MOHAMMED THANVEER V H
+# SHAIK MAHAMMAD BARA SHAHEED
+

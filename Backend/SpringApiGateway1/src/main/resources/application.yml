@@ -1,0 +1,14 @@
+server:
+  port: ${API_GATEWAY_PORT:8084}
+spring:
+  application:
+    name: Spring-Api-Gateway-1
+  main:
+    web-application-type: reactive
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${EUREKA_SERVER_IP:localhost}:${EUREKA_SERVER_PORT:8767}/eureka
+    fetchRegistry: true
+    registerWithEureka: true
+

@@ -1,0 +1,44 @@
+ <div class="login">
+<div>
+  <div class="welcome">
+    <h1 style="font-size: 50px;font-weight: bold;-webkit-text-stroke: 1px black;">Welcome User!</h1>
+    <br>
+    
+    <p style = "line-height: 1.5">This app provides all information about the Cricket Players.<br>
+       It also shows the statistics of the players at various formats and their recommendations from different countries.<br>
+       One can add them to favourites and can create a list of their beloved players. </p>
+  </div>
+  <div class="center">
+    <h1>Login</h1>
+    <form method="post" [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+      <div class="txt_field">
+        <input
+          [(ngModel)]="user.userId" [(ngModel)]="credentials.userId"
+          name="userId"
+          type="text" required  formControlName="userId" id="saveId">
+        <span></span>
+        <label>Login ID</label>
+      </div>
+      <div class="txt_field">
+        <input
+          [(ngModel)]="user.password" [(ngModel)]="credentials.password"
+          name="password"
+          type="password" required formControlName="password">
+        <span></span>
+        <label>Password</label>
+      </div>
+      <div class="two">
+        <input type="submit" value="Login">
+        <input type="reset" value="Clear" style="margin-left:10px;">
+      </div>
+
+      <div class="signup_link">
+        Not a Member Yet?  <a routerLink="/register" >Register Here</a>
+      </div>
+    </form>
+    <!-- {{credentials | json}} -->
+
+  </div>
+</div>
+</div>
+

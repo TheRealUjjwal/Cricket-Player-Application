@@ -1,0 +1,70 @@
+<div mat-dialog-actions >
+  <button class="close1"  mat-raised-button color="warn" (click)="onNoClick()">Close</button>
+</div>
+<h1 style="text-align:center"><u>BATTING</u></h1>
+<table class="table table-striped">
+    
+    <thead>
+       
+      <tr>
+        <th scope="col">Format</th>
+        <th scope="col">M</th>
+        <th scope="col">Inn</th>
+        <th scope="col">No</th>
+        <th scope="col">Runs</th>
+        <th scope="col">Hs</th>
+        <th scope="col">Avg</th>
+        <th scope="col">Bf</th>
+        <th scope="col">Sr</th>
+        <th scope="col">100s</th>
+        <th scope="col">200s</th>
+        <th scope="col">50s</th>
+        <th scope="col">4s</th>
+        <th scope="col">6s</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr scope="row" *ngFor="let matchtype of Batttingmatchtype;let i =index ">
+        <th scope="col">{{matchtype}}</th>
+         <td scope="col" *ngFor="let n of numSequence(13);let j =index ; ">{{Battingvalue[i][j]}}</td>
+        
+       
+      </tr>
+     
+       
+
+    </tbody>
+  </table> 
+  
+   <h1 style="text-align:center;margin-top: 30px;"><u>BOWLING</u></h1>
+<table class="table table-striped">
+    
+    <thead>
+       
+      <tr>
+        <th scope="col">Format</th>
+        <th scope="col">M</th>
+        <th scope="col">Inn</th>
+        <th scope="col">B</th>
+        <th scope="col">Runs</th>
+        <th scope="col">Wkts</th>
+        <th scope="col">Bbi</th>
+        <th scope="col">Bbm</th>
+        <th scope="col">Econ</th>
+        <th scope="col">Avg</th>
+        <th scope="col">Sr</th>
+        <th scope="col">5w</th>
+        <th scope="col">10w</th>
+    </tr>
+    </thead>
+    <tbody>
+       
+      <tr scope="row" *ngFor="let matchtype of Bowlingmatchtype;let i=index;">
+        <th scope="col">{{matchtype}}</th>
+         <td scope="col" *ngFor="let n of numSequence(12); let j=index">{{Bowlingvalue[i][j]}}</td>
+      </tr>
+     
+
+    </tbody>
+  </table>  
