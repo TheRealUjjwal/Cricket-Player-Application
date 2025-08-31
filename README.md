@@ -1,27 +1,119 @@
-# Cricket Player Application
-# TEAM
-<br>
-<i>*UJJWAL GUPTA,</i>
-<br>
-<i>*GOURI BALAKRISHNA SHINDE,</i>
-<br>
-<i>*MOHAMMED THANVEER V H,</i>
-<br>
-<i>*SHAIK MAHAMMAD BARA SHAHEED</i>
-<br>
-<br>
-The Cricket Player Application is a Java Full Stack Web Development project developed by a group of four members from scratch. This application can be used to retrieve any information of a cricket player along with his/her complete bio. It also consists of a Login page where one can create its own free account and can also add any number of players to his/her Favorite list such that next time he/she will get Recommendations also based on their Favorite list. 
-<br>
-<br>
-To know about our team, one can found a About page there in the application interface. In the group, I was the Team Leader and complete Frontend, the Microservices and some activity related to the Databases was managed by me. Whereas the Backend and Database was managed by the remaining colleagues.
+# 🏏 Cricket Player Application  
 
-# Tools / Technologies: 
-<b>Languages:</b> Java, Html, CSS, Javascript
-<br>
-<strong>Framework:</strong> Angular, Node.js, Spring
-<br>
-<b>Database:</b> MySql, Docker, Mongodb, Xampp
-<br>
-<b>Tools:</b> VS Code, Eclipse, Github, Gitlab, Eureka Server(Spring boot), Postman
-<br>
-<b>Security:</b> JWT(JSON Web Token)
+A **Full Stack Web Application** that provides complete details about cricket players.  
+Users can explore player statistics, view recommendations, and manage their own favorite list.  
+
+---
+
+## 🚀 Features  
+
+- 🔑 **User Authentication** (Register & Login with JWT Security)  
+- 👨‍💻 **Player Information & Statistics** across different formats  
+- ⭐ **Add Players to Favorites** for quick access  
+- 📝 **Recommendations** from different countries  
+- 🔍 **Search Players** easily  
+- 📱 **Responsive UI** for desktop & mobile  
+
+---
+
+## 🛠️ Technologies Used  
+
+### **Languages**
+- Java  
+- HTML  
+- CSS  
+- JavaScript  
+
+### **Frameworks**
+- Angular  
+- Node.js  
+- Spring (Spring Boot)  
+
+### **Databases**
+- MySQL  
+- MongoDB  
+- XAMPP (local server)  
+- Docker (containerized DB setup)  
+
+### **Tools**
+- VS Code  
+- Eclipse  
+- GitHub & GitLab  
+- Eureka Server (Spring Boot Microservices)  
+- Postman (API Testing)  
+
+### **Security**
+- JWT (JSON Web Token) for authentication  
+
+---
+
+## 📸 Screenshots  
+
+### 🏠 Home Page  
+![Home Page](./screenshots/home.png)  
+
+### 🔑 Login Page  
+![Login Page](./screenshots/login.png)  
+
+### 📝 Register Page  
+![Register Page](./screenshots/register.png)  
+
+### ⭐ Profile Page  
+![User Profile](./screenshots/user_profile.png)  
+
+### ⭐ Recommended Players  
+![Recommended Players](./screenshots/recommendations.png)
+
+### ⭐ Player's Profile  
+![Player Profile](./screenshots/player_profile.png)
+
+### ⭐ Favourite Players  
+![Favourite Players](./screenshots/favorites.png)
+
+### ⭐ Eureka Server Configurations  
+![Configurations](./screenshots/config.png)
+
+---
+
+## ⚙️ Installation & Setup  
+
+1. **Clone the repository**  
+   
+   git clone https://github.com/TheRealUjjwal/Cricket-Player-Application.git
+   
+   cd Cricket-Player-Application
+
+2. **Install dependencies**
+
+    npm install
+
+3. **Run Angular frontend**
+
+    ng serve
+
+4. **Run Node.js backend (if separate)**
+
+    node server.js
+
+5. **Run Spring Boot backend**
+
+    Import into Eclipse or IntelliJ, then start the application.
+
+6. **Database Setup**
+
+    Start MongoDB (via Docker or local installation).
+
+📂 Folder Structure
+
+src/
+ ┣ components/      # Angular Components
+ ┣ services/        # API & Data handling
+ ┣ assets/          # Images & Styles
+ ┗ app.module.ts    # Main app entry
+
+👤 Author
+Ujjwal Gupta – GitHub
+
+📜 License
+This project is licensed under the Apache License 2.0 – feel free to use, modify, and distribute.
+
